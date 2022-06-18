@@ -22,7 +22,7 @@ public class page10 extends AppCompatActivity {
         buttonb10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent asean = new Intent(page10.this, page9.class);
+                Intent asean = new Intent(page10.this, Homepage.class);
                 startActivity(asean);
             }
         });

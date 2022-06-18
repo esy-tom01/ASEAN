@@ -29,14 +29,14 @@ public class Homepage extends AppCompatActivity {
 
         imageView23 = (ImageView) findViewById(R.id.imageView23);
         imageView24 = (ImageView) findViewById(R.id.imageView24);
-        imageView24 = (ImageView) findViewById(R.id.imageView25);
-        imageView24 = (ImageView) findViewById(R.id.imageView26);
-        imageView24 = (ImageView) findViewById(R.id.imageView27);
-        imageView24 = (ImageView) findViewById(R.id.imageView28);
-        imageView24 = (ImageView) findViewById(R.id.imageView29);
-        imageView24 = (ImageView) findViewById(R.id.imageView30);
-        imageView24 = (ImageView) findViewById(R.id.imageView31);
-        imageView24 = (ImageView) findViewById(R.id.imageView32);
+        imageView25 = (ImageView) findViewById(R.id.imageView25);
+        imageView26 = (ImageView) findViewById(R.id.imageView26);
+        imageView27 = (ImageView) findViewById(R.id.imageView27);
+        imageView28 = (ImageView) findViewById(R.id.imageView28);
+        imageView29 = (ImageView) findViewById(R.id.imageView29);
+        imageView30 = (ImageView) findViewById(R.id.imageView30);
+        imageView31 = (ImageView) findViewById(R.id.imageView31);
+        imageView32 = (ImageView) findViewById(R.id.imageView32);
 
         imageView23.setOnClickListener(new View.OnClickListener() {
             @Override
