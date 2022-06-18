@@ -20,7 +20,7 @@ public class Asean extends AppCompatActivity {
         button_asean.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent asean = new Intent(Asean.this, page1.class);
+                Intent asean = new Intent(Asean.this, Homepage.class);
                 startActivity(asean);
             }
         });
