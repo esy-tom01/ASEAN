@@ -10,6 +10,7 @@ import android.widget.Button;
 public class page3 extends AppCompatActivity {
 
     Button buttonb3;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,8 @@ public class page3 extends AppCompatActivity {
         setContentView(R.layout.activity_page3);
 
         buttonb3 = (Button) findViewById(R.id.buttonb3);
+        button = (Button) findViewById(R.id.button);
+
 
         buttonb3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,5 +30,12 @@ public class page3 extends AppCompatActivity {
         });
 
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent asean = new Intent(page3.this, Asean.class);
+                startActivity(asean);
+            }
+        });
     }
 }

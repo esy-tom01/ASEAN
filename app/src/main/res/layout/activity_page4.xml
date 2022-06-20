@@ -71,14 +71,23 @@ System of Government: Socialism, Communism (Lao authorities use the word People'
         android:id="@+id/buttonb4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="52dp"
 
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:text="back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
-
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:text="home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.363" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
